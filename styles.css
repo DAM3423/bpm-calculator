@@ -77,6 +77,66 @@ h4 {
     grid-template-columns: repeat(8, 1fr);
 }
 
+.site-nav {
+    margin: 10px 20px;
+}
+
+.site-nav ul {
+    display: none;
+    cursor: pointer;
+}
+
+#portfolio {
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#portfolio a {
+    padding: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#portfolio a:hover {
+    color: var(--third);
+}
+
+#soothing-sounds {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#soothing-sounds a {
+    padding: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#soothing-sounds a:hover {
+    color: var(--third);
+}
+
+#buy-me-a-coffee {
+    grid-column: 6/9;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#buy-me-a-coffee a {
+    padding: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#buy-me-a-coffee a:hover {
+    color: var(--third);
+}
+
 .bpm-display {
     grid-column: 2/8;
 }
