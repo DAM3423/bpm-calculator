@@ -103,23 +103,6 @@ h4 {
     color: var(--third);
 }
 
-#soothing-sounds {
-    grid-column: 2/3;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-#soothing-sounds a {
-    padding: 10px;
-    transition: 1s;
-    cursor: pointer;
-}
-
-#soothing-sounds a:hover {
-    color: var(--third);
-}
-
 #buy-me-a-coffee {
     grid-column: 6/9;
     display: flex;
